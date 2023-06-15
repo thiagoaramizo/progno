@@ -1,15 +1,16 @@
 import { AppLayout } from "@/components/appLayout";
 import Head from "next/head";
 
-export default function NovoPrognostico() {
+export default function InicialApp() {
   return (
     <>
       <Head>
-        <title>Progno | Novo Prognóstico</title>
+        <title>Progno | Configurações</title>
       </Head>
       <AppLayout>
-        <div>Novo Prognóstico</div>
+        <div>Configurações</div>
       </AppLayout>
+      
     </>
   )
 }

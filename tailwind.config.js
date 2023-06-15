@@ -16,7 +16,10 @@ module.exports = {
         'secondary-300': '#8ecae6',
         'secondary-400': '#219ebc',
         'secondary-500': '#023047',
-        },
+      },
+      gridTemplateColumns: {
+        'app':'300px 1fr' 
+      },
     },
   },
   plugins: [],
