@@ -8,6 +8,7 @@ export function MenuLateral () {
       <div>
         <Link href={'/app'} className="block transition-transform hover:scale-105">
           <Image src={'/logo-progno-nominal.svg'} alt="Progno" width={200} height={150} />
+          <span className="block text-xs font-light text-slate-600 opacity-80">Versão Alfa 0.0.1</span>
         </Link>
       </div>
       <nav>

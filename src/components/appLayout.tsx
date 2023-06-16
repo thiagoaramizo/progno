@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { ReactNode } from "react";
 import { MenuLateral } from "./menuLateral";
 import { BarraSuperior } from "./barraSuperior";
@@ -14,16 +13,12 @@ export function AppLayout ( {children}:AppLayoutProps ) {
       <MenuLateral />
       <div className="bg-slate-100 h-screen overflow-x-hidden overflow-y-auto">
         <BarraSuperior />
-        <div className="p-8">
+        <div className="p-8 pt-14">
          {children}
         </div>
       </div>
       
     </div>
-      
-
-
-      
     </>
   )
 }

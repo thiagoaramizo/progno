@@ -22,7 +22,7 @@ export default async function handler(
   try {
     const database = client.db("Progno")
     const interesse = database.collection<InteresseType>("interesse")
-    const result = await interesse.insertOne({ email: 'test@test.com'})
+    const result = await interesse.insertOne({ email: req.body.email})
   } catch(err) {
     res.status(400).json({ status: JSON.stringify(err) })
   } 
