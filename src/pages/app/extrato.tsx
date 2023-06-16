@@ -1,5 +1,4 @@
 import { AppLayout } from "@/components/appLayout";
-import { Construcao } from "@/components/contrucao";
 import { Titulo } from "@/components/titulo";
 import Head from "next/head";
 
