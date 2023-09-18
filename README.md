@@ -12,11 +12,8 @@ Para executar o projeto é necessário ter o `node` instalado em sua versão mí
 Após clonar o projeto em sua máquina utilize o comando abaixo:
 
 ```bash
+npm i
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Abra o endereço [http://localhost:3000](http://localhost:3000) no seu navegador para acessar o conteúdo.
