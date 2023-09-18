@@ -1,8 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## O que é o projeto
 
-## Getting Started
+Projeto realizado para o Hackaton OAB - Minas Gerais para o suporte de advogados, ficando em 2º lugar na competição.
+A idealização do projeto é um sistema que utiliza jurimetria para apresentar insights sobre um processo judicial. O presente repositório lida diretamente com a UI da solução.
 
-First, run the development server:
+
+<img width="900" alt="progno-tela-1" src="https://github.com/thiagoaramizo/progno/assets/48260314/6412db1a-0b2f-4ad4-8630-9d3ec2fc1431">
+
+## Para acessar o projeto
+
+Para executar o projeto é necessário ter o `node` instalado em sua versão mínima `v16.17.0` com o gerenciador de pacotes `npm@9.7.1`.
+Após clonar o projeto em sua máquina utilize o comando abaixo:
 
 ```bash
 npm run dev
@@ -12,23 +19,45 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra o endereço [http://localhost:3000](http://localhost:3000) no seu navegador para acessar o conteúdo.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Se preferir, acesse a versão on-line do projeto em [https://progno.vercel.app](https://progno.vercel.app). Neste caso não é necessário instalar nada em seu computador.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Navegando pelo projeto
 
-## Learn More
+O projeto visa oferecer um prognóstico de custos (financeiros e temporais) de um processo e estimar seu resultado, com base no histórico de processos similares. Para isso é necessário o preenchimento de algumas variáveis, em 3 etapas simples, conforme as telas abaixo:
 
-To learn more about Next.js, take a look at the following resources:
+### 1) Tribunal, Comarca ou região e jurisdição
+<img width="900" alt="progno-tela-2" src="https://github.com/thiagoaramizo/progno/assets/48260314/a89538d2-857f-4071-8408-d3a7f6850b1a">
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 2) Classe processual e assunto
+<img width="900" alt="progno-tela-3" src="https://github.com/thiagoaramizo/progno/assets/48260314/85e005ac-ad8e-4107-953f-92801f76651f">
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+A próxima etapa é a revisão das informações apresentadas:
 
-## Deploy on Vercel
+### 3) Revisão das informações
+<img width="900" alt="progno-tela-4" src="https://github.com/thiagoaramizo/progno/assets/48260314/a26cf031-bb4e-4d20-910e-cb60dc95da52">
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Resultado para o usuário
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Como resultado o usuário poderá receber o prognóstico conforme os dados apresentados:
+
+<img width="900" alt="progno-tela-5" src="https://github.com/thiagoaramizo/progno/assets/48260314/63e27045-079b-44eb-bf0d-24af4b7e8dc6">
+
+Os resultados são apresentados de forma a possibilitar a fácil compreensão das informações, utilizando técnicas de Legal Design:
+
+<img width="900" alt="progno-relatorio-1" src="https://github.com/thiagoaramizo/progno/assets/48260314/45aa71ee-bb7a-44b4-868d-c647c4a9e11c">
+
+<img width="900" alt="progno-relatorio-2" src="https://github.com/thiagoaramizo/progno/assets/48260314/c4d32918-66a4-4038-96d0-96ff55170a1f">
+
+<img width="900" alt="progno-relatorio-3" src="https://github.com/thiagoaramizo/progno/assets/48260314/7bd97c93-ee32-43e5-aee6-045f680abaca">
+
+<img width="900" alt="progno-relatorio-4" src="https://github.com/thiagoaramizo/progno/assets/48260314/b8e581ed-9017-4fc6-a474-e80f6ba57995">
+
+
+## Tecnologias utilizada no front-end
+
+Para a realização deste projeto as principais bibliotecas utilizadas foram:
+- [Next.js](https://nextjs.org)
+- [Tailwindcss](https://tailwindcss.com)
+
